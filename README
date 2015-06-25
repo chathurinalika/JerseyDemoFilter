@@ -1,0 +1,11 @@
+This is demo project for Jersey which used filtering to handle exception.
+
+Here is the steps to test. (Used Postman REST Client)
+
+1. Enter 'http://localhost:8080/JerseyDemoFilter/demo/login' without Authentication values
+
+2. 'This request requires HTTP authentication' Response should display with 401 error 
+
+3. Again enter 'http://localhost:8080/JerseyDemoFilter/demo/login' with Authentication values
+
+4. " welcome !"  message should display as response
